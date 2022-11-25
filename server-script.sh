@@ -1,5 +1,5 @@
 
 #! /usr/bin/bash
 
-stty raw -echo; (stty size; cat) | nc -lnvp 87 -s  172.18.186.73
+stty raw -echo; (stty size; cat) | nc -lnvp 1000 -s  0.0.0.0
 
